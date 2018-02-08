@@ -1,5 +1,6 @@
 
 #include <iostream>
+#include <conio.h>
 #include "acoursemath.h"
 using namespace std;
 using namespace acourse;
@@ -17,5 +18,6 @@ int main ()
 
   rnd_sum = am.random_add(i,a);
   cout << " and its random sum is " << rnd_sum << ".\n";
+  getch();
   return 0;
 }
